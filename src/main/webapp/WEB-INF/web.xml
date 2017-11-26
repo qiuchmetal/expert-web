@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>Expert Web Site</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<context-param>
+        <description>日志配置文件的路径</description>
+        <param-name>log4j.configurationFile</param-name>
+        <param-value>log4j2.xml</param-value>
+    </context-param>
+	<!-- <servlet>
+		用户登录模块
+		<servlet-name>UserLoginServlet</servlet-name>
+		<servlet-class>com.udiannet.tob.expertreg.controller.UserLoginServlet</servlet-class>		
+	</servlet>
+	<servlet>
+		用户资料模块
+		<servlet-name>UserInfoServlet</servlet-name>
+		<servlet-class>com.udiannet.tob.expertreg.controller.UserInfoServlet</servlet-class>
+	</servlet>
+	<servlet>
+	  <servlet-name>log4j-init</servlet-name>
+	  <servlet-class>com.udiannet.tob.expertreg.controller.InitLog4j</servlet-class>
+	</servlet>
+
+	
+	<servlet-mapping>
+		用户登录模块
+		<servlet-name>UserLoginServlet</servlet-name>
+		<url-pattern>/UserLogin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		用户资料模块
+		<servlet-name>UserInfoServlet</servlet-name>
+		<url-pattern>/UserInfo</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	  <servlet-name>log4j-init</servlet-name>
+	  <url-pattern>/servlet/InitLog4j</url-pattern>
+	</servlet-mapping> -->
+</web-app>
